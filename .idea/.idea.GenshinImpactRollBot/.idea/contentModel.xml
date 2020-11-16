@@ -11,7 +11,7 @@
           <e p="RollBot.cs" t="Include" />
         </e>
         <e p="Client" t="Include">
-          <e p="DiscordWrapConfiguration.cs" t="Include" />
+          <e p="DiscordConfigurationJsonWrapper.cs" t="Include" />
           <e p="JsonReader.cs" t="Include" />
         </e>
         <e p="Common" t="Include">

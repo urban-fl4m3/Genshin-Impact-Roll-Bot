@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace GenshinImpactRollBot.Client
 {
-    public class DiscordWrapConfiguration
+    public class DiscordConfigurationJsonWrapper
     {
         [JsonProperty(Names.TokenName)]
         public string Token { get; private set; }

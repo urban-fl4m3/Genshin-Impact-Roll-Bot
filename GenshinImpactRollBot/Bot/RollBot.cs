@@ -1,13 +1,10 @@
-﻿using System.IO;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
 using GenshinImpactRollBot.Client;
 using GenshinImpactRollBot.Common;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 using JsonReader = GenshinImpactRollBot.Client.JsonReader;
 
 namespace GenshinImpactRollBot
@@ -18,14 +15,14 @@ namespace GenshinImpactRollBot
 
         public async Task RunAsync()
         {
-            var botConfigurationTask = JsonReader.PathToGenericObject<DiscordWrapConfiguration>(
+            var botConfigurationTask = JsonReader.PathToGenericObject<DiscordConfigurationJsonWrapper>(
                 Paths.DiscordConfigPath, false, false);
 
-            var botConfiguration = await botConfigurationTask.ConfigureAwait(false);
+            var jsonConfig = await botConfigurationTask.ConfigureAwait(false);
             
             var config = new DiscordConfiguration
             {
-                Token = botConfiguration.Token,
+                Token = jsonConfig.Token,
                 TokenType = TokenType.Bot,
                 AutoReconnect = true,
                 MinimumLogLevel = LogLevel.Debug
@@ -36,7 +33,9 @@ namespace GenshinImpactRollBot
 
             var commandsConfig = new CommandsNextConfiguration
             {
-
+                StringPrefixes = new[] { jsonConfig.Prefix },
+                EnableMentionPrefix = true,
+                EnableDms = false
             };
 
             Client.UseCommandsNext(commandsConfig);
