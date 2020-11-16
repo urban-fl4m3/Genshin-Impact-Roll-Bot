@@ -10,5 +10,6 @@ namespace GenshinImpactRollBot.Client
         
         [JsonProperty(Names.PrefixName)]
         public string Prefix { get; private set; }
+        
     }
 }

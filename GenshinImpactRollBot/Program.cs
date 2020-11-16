@@ -4,7 +4,8 @@
     {
         private static void Main()
         {
-            var bot = new RollBot();
+            var installer = new BotInstaller();
+            installer.RunAsync().GetAwaiter().GetResult();
         }
     }
 }
