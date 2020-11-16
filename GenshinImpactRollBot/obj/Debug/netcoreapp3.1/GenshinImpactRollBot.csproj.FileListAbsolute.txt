@@ -1,0 +1,13 @@
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\bin\Debug\netcoreapp3.1\GenshinImpactRollBot.exe
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\bin\Debug\netcoreapp3.1\GenshinImpactRollBot.deps.json
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\bin\Debug\netcoreapp3.1\GenshinImpactRollBot.runtimeconfig.json
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\bin\Debug\netcoreapp3.1\GenshinImpactRollBot.runtimeconfig.dev.json
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\bin\Debug\netcoreapp3.1\GenshinImpactRollBot.dll
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\bin\Debug\netcoreapp3.1\GenshinImpactRollBot.pdb
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\obj\Debug\netcoreapp3.1\GenshinImpactRollBot.csprojAssemblyReference.cache
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\obj\Debug\netcoreapp3.1\GenshinImpactRollBot.AssemblyInfoInputs.cache
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\obj\Debug\netcoreapp3.1\GenshinImpactRollBot.AssemblyInfo.cs
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\obj\Debug\netcoreapp3.1\GenshinImpactRollBot.csproj.CoreCompileInputs.cache
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\obj\Debug\netcoreapp3.1\GenshinImpactRollBot.dll
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\obj\Debug\netcoreapp3.1\GenshinImpactRollBot.pdb
+C:\Users\urban\Desktop\GenshinImpactRollBot\GenshinImpactRollBot\obj\Debug\netcoreapp3.1\GenshinImpactRollBot.genruntimeconfig.cache
