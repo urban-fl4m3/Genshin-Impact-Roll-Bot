@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\urban\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\urban\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_GenshinImpactRollBot.-1135330445.00" t="ExcludeRecursive" />
+    <e p="C:\Users\urban\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_GenshinImpactRollBot.-1902353550.00" t="ExcludeRecursive" />
     <e p="C:\Users\urban\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\urban\Desktop\GenshinImpactRollBot" t="IncludeFlat">
+    <e p="C:\Users\urban\Desktop\Genshin-Impact-Roll-Bot" t="IncludeFlat">
       <e p="GenshinImpactRollBot" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Bot" t="Include">
+          <e p="RollBot.cs" t="Include" />
+        </e>
+        <e p="Client" t="Include">
+          <e p="DiscordWrapConfiguration.cs" t="Include" />
+          <e p="JsonReader.cs" t="Include" />
+        </e>
+        <e p="Common" t="Include">
+          <e p="Names.cs" t="Include" />
+          <e p="Paths.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="JsonObjectNotFoundException.cs" t="Include" />
+        </e>
         <e p="GenshinImpactRollBot.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Lep/Q7w/wSKrCmnHN/JS3/sJsXm/A4jX0gTWJHIxHDmdiYYGt99k+xJcVhhOz67AgObMqdmwx5QYXZz8U+RiNw==",
+  "dgSpecHash": "rOgZiJD3BI453rgEn6/X6TiMgPGyxY7S4zIWwHOaS/N5dQVf3ChVK3buk1pwTpbExdxcQ1CxF6NSYUeHGR+0Vg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\urban\\Desktop\\GenshinImpactRollBot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj",
+  "projectFilePath": "C:\\Users\\urban\\Desktop\\Genshin-Impact-Roll-Bot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\urban\\.nuget\\packages\\concurrenthashset\\1.1.0\\concurrenthashset.1.1.0.nupkg.sha512",
     "C:\\Users\\urban\\.nuget\\packages\\dsharpplus\\4.0.0-rc1\\dsharpplus.4.0.0-rc1.nupkg.sha512",
+    "C:\\Users\\urban\\.nuget\\packages\\dsharpplus.commandsnext\\4.0.0-rc1\\dsharpplus.commandsnext.4.0.0-rc1.nupkg.sha512",
+    "C:\\Users\\urban\\.nuget\\packages\\dsharpplus.interactivity\\4.0.0-rc1\\dsharpplus.interactivity.4.0.0-rc1.nupkg.sha512",
     "C:\\Users\\urban\\.nuget\\packages\\emzi0767.common\\2.2.2\\emzi0767.common.2.2.2.nupkg.sha512",
+    "C:\\Users\\urban\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.7\\microsoft.extensions.dependencyinjection.3.1.7.nupkg.sha512",
+    "C:\\Users\\urban\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.7\\microsoft.extensions.dependencyinjection.abstractions.3.1.7.nupkg.sha512",
     "C:\\Users\\urban\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.8\\microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
     "C:\\Users\\urban\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\urban\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

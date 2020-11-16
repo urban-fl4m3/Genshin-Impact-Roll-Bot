@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\urban\\Desktop\\GenshinImpactRollBot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj": {}
+    "C:\\Users\\urban\\Desktop\\Genshin-Impact-Roll-Bot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\urban\\Desktop\\GenshinImpactRollBot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj": {
+    "C:\\Users\\urban\\Desktop\\Genshin-Impact-Roll-Bot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\urban\\Desktop\\GenshinImpactRollBot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj",
+        "projectUniqueName": "C:\\Users\\urban\\Desktop\\Genshin-Impact-Roll-Bot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj",
         "projectName": "GenshinImpactRollBot",
-        "projectPath": "C:\\Users\\urban\\Desktop\\GenshinImpactRollBot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj",
+        "projectPath": "C:\\Users\\urban\\Desktop\\Genshin-Impact-Roll-Bot\\GenshinImpactRollBot\\GenshinImpactRollBot.csproj",
         "packagesPath": "C:\\Users\\urban\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\urban\\Desktop\\GenshinImpactRollBot\\GenshinImpactRollBot\\obj\\",
+        "outputPath": "C:\\Users\\urban\\Desktop\\Genshin-Impact-Roll-Bot\\GenshinImpactRollBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\urban\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,14 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "DSharpPlus": {
+              "target": "Package",
+              "version": "[4.0.0-rc1, )"
+            },
+            "DSharpPlus.CommandsNext": {
+              "target": "Package",
+              "version": "[4.0.0-rc1, )"
+            },
+            "DSharpPlus.Interactivity": {
               "target": "Package",
               "version": "[4.0.0-rc1, )"
             }

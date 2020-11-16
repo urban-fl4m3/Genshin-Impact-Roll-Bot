@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace GenshinImpactRollBot
+﻿namespace GenshinImpactRollBot
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var bot = new RollBot();
         }
     }
 }
