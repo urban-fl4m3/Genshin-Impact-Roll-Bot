@@ -1,7 +1,9 @@
 ﻿using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.CommandsNext.Attributes;
+using GenshinImpactRollBot.Common;
 using GenshinImpactRollBot.Gacha;
 
 namespace GenshinImpactRollBot.Commands
@@ -20,9 +22,13 @@ namespace GenshinImpactRollBot.Commands
         {
             var msgChannel = context.Channel;
             var rollResult = GachaManager.Roll();
+
+            var sendPictureTask = msgChannel.SendFileAsync(Paths.SimpleRollBlue);
+            await sendPictureTask;
+            
+            Thread.Sleep(1000);
             
             var sendMessageTask = msgChannel.SendMessageAsync($"{context.Message.Author.Mention} заролил {rollResult.Name}");
-
             await sendMessageTask.ConfigureAwait(false);
         }
         
