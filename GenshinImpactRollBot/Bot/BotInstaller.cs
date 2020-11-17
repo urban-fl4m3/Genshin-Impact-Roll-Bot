@@ -2,9 +2,12 @@
 using DSharpPlus;
 using DSharpPlus.CommandsNext;
 using DSharpPlus.EventArgs;
+using DSharpPlus.Interactivity;
+using DSharpPlus.Interactivity.Extensions;
 using GenshinImpactRollBot.Client;
 using GenshinImpactRollBot.Commands;
 using GenshinImpactRollBot.Common;
+using GenshinImpactRollBot.Gacha;
 using Microsoft.Extensions.Logging;
 using JsonReader = GenshinImpactRollBot.Client.JsonReader;
 
@@ -14,6 +17,7 @@ namespace GenshinImpactRollBot
     {
         public DiscordClient Client { get; private set; }
         public CommandsNextExtension Commands { get; private set; }
+        public InteractivityExtension Interactivity { get; private set; }
 
         public async Task RunAsync()
         {
@@ -24,12 +28,14 @@ namespace GenshinImpactRollBot
             
             var configurationManager = new ConfigurationManager(jsonConfig);
 
-            var discordConfig = configurationManager.ToDiscordConfiguration();
-            var commandsConfig = configurationManager.ToCommandsNextConfiguration();
+            var discordConfig = configurationManager.GetDiscordConfiguration();
+            var commandsConfig = configurationManager.GetCommandsConfiguration();
+            var interactivityConfig = configurationManager.GetInteractivityConfiguration();
             
             Client = new DiscordClient(discordConfig);
             Client.Ready += OnClientReady;
-            
+
+            Interactivity = Client.UseInteractivity(interactivityConfig);
             Commands = Client.UseCommandsNext(commandsConfig);
             Commands.RegisterCommands<RollCommands>();
             

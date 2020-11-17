@@ -1,5 +1,7 @@
-﻿using DSharpPlus;
+﻿using System;
+using DSharpPlus;
 using DSharpPlus.CommandsNext;
+using DSharpPlus.Interactivity;
 using Microsoft.Extensions.Logging;
 
 namespace GenshinImpactRollBot.Client
@@ -13,7 +15,7 @@ namespace GenshinImpactRollBot.Client
             _discordConfigurationJsonWrapper = discordConfigurationJsonWrapper;
         }
         
-        public DiscordConfiguration ToDiscordConfiguration()
+        public DiscordConfiguration GetDiscordConfiguration()
         {
             return new DiscordConfiguration
             {
@@ -24,7 +26,7 @@ namespace GenshinImpactRollBot.Client
             };
         }
 
-        public CommandsNextConfiguration ToCommandsNextConfiguration()
+        public CommandsNextConfiguration GetCommandsConfiguration()
         {
             return new CommandsNextConfiguration
             {
@@ -32,6 +34,14 @@ namespace GenshinImpactRollBot.Client
                 EnableMentionPrefix = true,
                 IgnoreExtraArguments = false,
                 StringPrefixes = new[] { _discordConfigurationJsonWrapper.Prefix }
+            };
+        }
+
+        public InteractivityConfiguration GetInteractivityConfiguration()
+        {
+            return new InteractivityConfiguration
+            {
+                Timeout = TimeSpan.FromMinutes(2)
             };
         }
     }
