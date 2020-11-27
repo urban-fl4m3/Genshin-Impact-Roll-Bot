@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="466c899d-6423-45dc-98d7-5831168c5a2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GenshinImpactRollBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GenshinImpactRollBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenshinImpactRollBot/Commands/RollCommands.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GenshinImpactRollBot/Commands/RollCommands.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenshinImpactRollBot/Common/Names.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GenshinImpactRollBot/Common/Names.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenshinImpactRollBot/Common/Paths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GenshinImpactRollBot/Common/Paths.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenshinImpactRollBot/bin/Icons/Item_Primogem.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GenshinImpactRollBot/bin/Debug/netcoreapp3.1/GenshinImpactRollBot.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GenshinImpactRollBot/bin/Debug/netcoreapp3.1/GenshinImpactRollBot.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GenshinImpactRollBot/bin/Debug/netcoreapp3.1/GenshinImpactRollBot.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GenshinImpactRollBot/bin/Debug/netcoreapp3.1/GenshinImpactRollBot.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GenshinImpactRollBot/obj/Debug/netcoreapp3.1/GenshinImpactRollBot.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GenshinImpactRollBot/obj/Debug/netcoreapp3.1/GenshinImpactRollBot.dll" afterDir="false" />
@@ -132,6 +129,7 @@
       <updated>1605560248041</updated>
       <workItem from="1605560252364" duration="120000" />
       <workItem from="1605560560223" duration="17498000" />
+      <workItem from="1605607869114" duration="144000" />
     </task>
     <servers />
   </component>
@@ -150,6 +148,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -163,22 +162,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="466" height="464" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1605579203802" />
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1605579490642">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605608012332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605579490642" />
-    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1605579490642">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605608012332" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605608012331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605579490642" />
-    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1605579490642">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605608012331" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605608012331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605579490642" />
-    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1605579490642">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605608012331" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605608012331">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605579490642" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605608012331" />
     <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1605579490642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
