@@ -1,1 +1,3 @@
-First try to create discord bot based on gacha (roll) - system in Genshin Impact game
+First attempt to create discord bot.
+
+Genshin Impact Roll Bot - based on gacha (roll) - system in Genshin Impact game
